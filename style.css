@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+video{
+    height: 130%;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.taskbar{
+    z-index: 110;
+    background-color: rgb(220 238 250);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 80%;
+}
+
+.startmenu{
+    position: absolute;
+    bottom: -650px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.7s ease-in;
+}
+
+.startmenu img{
+    border-radius: 5px;
+}
